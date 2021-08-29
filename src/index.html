@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone</title>
+    <link rel="stylesheet" href="./css/index.css"></link>
+</head>
+<body>
+    <div id="root">
+      <div class="container_form" id="singOutBlock" style="display: none;">
+        <div class="form_box">
+          <ul class="near_input">
+            <li class="inputVal"><input class="text" placeholder="请输入" id="inp" /><button id="saveBtn">保存</button><button id='updateBtn'>更新</button></li>
+            <li class="list_container" id="list_container">
+              <div class="row">
+              <div class="list_d">
+                <div class="text_list">
+                <p>123456</p>
+                <p>2019-12-19 00:00:00</p>
+              </div>
+              <div class="delBtn" id="del"><button>删除</button></div>
+             </div>
+            </div>
+            </li>
+            <li class="btnBottom"><button id="signoutBtn">Sign out</button></li>
+          </ul>
+        </div>
+      </div >
+      <div class="container_form" id="singInBlock" style="display:block;">
+        <div class="form_box">
+         <p class="signIN" id='signInBtn'>Sign in</p>
+        </div>
+      </div >
+    </div >
+</body>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="./main.js"></script>
+</html>
